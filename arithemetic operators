@@ -1,0 +1,21 @@
+
+public class ArithemeticOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num_1=7;
+int num_2=3;
+int res1=num_1+num_2;
+int res2=num_1-num_2;
+int res3=num_1*num_2;
+int res4=num_1/num_2;
+
+int res5=num_1%num_2;
+System.out.println(res1);
+System.out.println(res2);
+System.out.println(res3);
+System.out.println(res4);
+System.out.println(res5);
+	}
+
+}
