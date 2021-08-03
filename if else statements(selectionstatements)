@@ -1,0 +1,17 @@
+
+public class SelectionDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int year=2016;
+if(year%2==0 && year%4==0)
+	{System.out.println("the number is even");
+	System.out.println("the year is leap year");
+	}
+else
+{	System.out.println("the number is odd");
+System.out.println("the year is not a leap year");
+	}
+
+}
+}
