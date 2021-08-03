@@ -1,0 +1,32 @@
+
+public class SwitchStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+char grade='A';
+switch(grade)
+{
+case 'A':
+	System.out.println("you did great!!!");
+	break;
+case 'B':
+	System.out.println("you did alright");
+	break;
+case 'C':
+	System.out.println("you did poorly");
+	break;
+case 'D':
+	System.out.println("you did very poorly");
+	break;
+	
+case 'F':
+	System.out.println("you failed!!");
+	break;
+default:
+	System.out.println("invalid statement");
+}
+	
+	
+}
+	}
+
