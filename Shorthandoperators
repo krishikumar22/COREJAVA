@@ -1,0 +1,20 @@
+
+public class ShorthandOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int m=7;
+int n=9;
+
+n+=m;
+m=++n;
+m=n++;
+n*=m;
+n%=m;
+n/=m;
+m=--n;
+m=n--;
+System.out.println(m);
+	}
+
+}
